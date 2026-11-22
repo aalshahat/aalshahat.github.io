@@ -1,0 +1,17 @@
+*{box-sizing:border-box}
+:root{--cv-bg:#ffffff;--cv-ink:#000000;--cv-ink2:rgba(0,0,0,.55)}
+html,body{margin:0;background:var(--cv-bg);color:var(--cv-ink)}
+body{font-family:"AlYamama",Arial,sans-serif;font-weight:400;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
+.cv{max-width:640px;margin:0 auto;padding:56px 24px 96px}
+h1{font-weight:700;font-size:34px;line-height:1.15;margin:0 0 22px;letter-spacing:-.01em}
+h2{font-weight:700;font-size:20px;line-height:1.3;margin:40px 0 10px}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+li{margin:0 0 14px}
+a{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+strong{font-weight:700}
+.m{color:var(--cv-ink2);font-size:15px}
+.photo{display:block;width:160px;height:160px;object-fit:cover;object-position:50% 20%;border-radius:12px;filter:grayscale(1)}
+.upd{margin-top:64px;padding-top:16px;border-top:1px solid rgba(0,0,0,.12);font-size:13px;color:var(--cv-ink2)}
+@media (max-width:480px){.cv{padding:36px 20px 72px}h1{font-size:30px}}
